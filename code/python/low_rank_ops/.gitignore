@@ -1,0 +1,13 @@
+notes/
+
+# Python
+__pycache__/
+build/
+dist/
+*.egg-info/
+.pytest_cache
+
+# Sphinx
+_build/
+docs_src/_static/
+
