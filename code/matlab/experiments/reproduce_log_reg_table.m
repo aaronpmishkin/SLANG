@@ -9,9 +9,9 @@
 % found for the first split of each dataset are also visualized in Figures 1, and 7.
 % =========================================================================================
 
-addpath(genpath('.'))
-mkdir('./experiments/data')
-output_dir = './experiments/data/final_log_reg_table';
+addpath(genpath('..'))
+mkdir('../experiments/data')
+output_dir = '../experiments/data/final_log_reg_table';
 mkdir(output_dir)
 
 epoch_lists = {[10000]};

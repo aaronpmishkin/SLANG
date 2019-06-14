@@ -1,0 +1,104 @@
+Dataset:  boston
+
+RMSE: 
+SLANG:	 3.21 $\pm$ 0.19 
+BBB:	 3.43 $\pm$ 0.20
+
+Loglik: 
+SLANG:	 -2.58 $\pm$ 0.05 
+BBB:	 -2.66 $\pm$ 0.06
+
+
+
+
+Dataset:  concrete
+
+RMSE: 
+SLANG:	 5.58 $\pm$ 0.19 
+BBB:	 6.16 $\pm$ 0.13
+
+Loglik: 
+SLANG:	 -3.13 $\pm$ 0.03 
+BBB:	 -3.25 $\pm$ 0.02
+
+
+
+
+Dataset:  energy
+
+RMSE: 
+SLANG:	 0.64 $\pm$ 0.03 
+BBB:	 0.97 $\pm$ 0.09
+
+Loglik: 
+SLANG:	 -1.12 $\pm$ 0.01 
+BBB:	 -1.45 $\pm$ 0.10
+
+
+
+
+Dataset:  kin8nm
+
+RMSE: 
+SLANG:	 0.08 $\pm$ 0.00 
+BBB:	 0.08 $\pm$ 0.00
+
+Loglik: 
+SLANG:	 1.06 $\pm$ 0.00 
+BBB:	 1.07 $\pm$ 0.00
+
+
+
+
+Dataset:  naval
+
+RMSE: 
+SLANG:	 0.00 $\pm$ 0.00 
+BBB:	 0.00 $\pm$ 0.00
+
+Loglik: 
+SLANG:	 4.76 $\pm$ 0.00 
+BBB:	 4.61 $\pm$ 0.01
+
+
+
+
+Dataset:  powerplant
+
+RMSE: 
+SLANG:	 4.16 $\pm$ 0.04 
+BBB:	 4.21 $\pm$ 0.03
+
+Loglik: 
+SLANG:	 -2.84 $\pm$ 0.01 
+BBB:	 -2.86 $\pm$ 0.01
+
+
+
+
+Dataset:  wine
+
+RMSE: 
+SLANG:	 0.65 $\pm$ 0.01 
+BBB:	 0.64 $\pm$ 0.01
+
+Loglik: 
+SLANG:	 -0.97 $\pm$ 0.01 
+BBB:	 -0.97 $\pm$ 0.01
+
+
+
+
+Dataset:  yacht
+
+RMSE: 
+SLANG:	 1.08 $\pm$ 0.06 
+BBB:	 1.13 $\pm$ 0.06
+
+Loglik: 
+SLANG:	 -1.88 $\pm$ 0.01 
+BBB:	 -1.56 $\pm$ 0.02
+
+
+
+

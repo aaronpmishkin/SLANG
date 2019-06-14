@@ -13,9 +13,9 @@
 % We want to retain all training paths for plotting.
 PLOT = 1;
 
-addpath(genpath('..'))
-mkdir('./data')
-output_dir = './data/convergence-comparison-grid-search/'
+addpath(genpath('../../'))
+mkdir('../data')
+output_dir = '../data/convergence-comparison-grid-search/'
 mkdir(output_dir)
 
 methods = {'Hessian'}

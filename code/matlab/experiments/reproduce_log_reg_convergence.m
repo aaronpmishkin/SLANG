@@ -11,9 +11,9 @@
 % We want to retain all training information for plotting.
 PLOT = 1;
 
-addpath(genpath('.'))
-mkdir('./experiments/data')
-output_dir = './experiments/data/final-convergence-comparison/';
+addpath(genpath('..'))
+mkdir('../experiments/data')
+output_dir = '../experiments/data/final-convergence-comparison/';
 mkdir(output_dir)
 
 L = 0;   % N/A for EF, Hessian and mf-EF, mf-Hessian

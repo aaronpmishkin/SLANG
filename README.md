@@ -1,41 +1,20 @@
-**Status**: We are actively updating this repository with code to reproduce our experimental results.
-
 ## SLANG: Fast Structured Covariance Approximations for Bayesian Deep Learning with Natural Gradient
+
+Code for reproducing the experimental results in the paper
+[SLANG: Fast Structured Covariance Approximations for Bayesian Deep Learning with Natural Gradient](http://papers.nips.cc/paper/7862-slang-fast-structured-covariance-approximations-for-bayesian-deep-learning-with-natural-gradient)
+by Aaron Mishkin, Frederik Kunstner, Didrik Nielsen, Mark Schmidt, and Mohammad Emtiyaz Khan.
+
+See [the code folder](https://github.com/aaronpmishkin/SLANG/tree/master/code) for installation instructions.
 
 ---
 
-Code for reproducing experimental results in the paper
-[SLANG: Fast Structured Covariance Approximations for Bayesian Deep Learning with Natural Gradient](https://arxiv.org/abs/1811.04504) by Aaron Mishkin, Frederik Kunstner, Didrik Nielsen, Mark Schmidt, and Mohammad Emtiyaz Khan.
-
-
-### Requirements:
-
-Our code requires that you have installed
-* Python (version 3.6 or higher),
-* PyTorch (version 4.0 or higher),
-* SciPy + NumPy
-
-### Basic Usage
-1. Clone the repository with
 ```
-git clone https://github.com/aaronpmishkin/SLANG
+@inproceedings{mishkin2018slang,
+  author    = {Aaron Mishkin and Frederik Kunstner and Didrik Nielsen and Mark W. Schmidt and Mohammad Emtiyaz Khan},
+  editor    = {Samy Bengio and Hanna M. Wallach and Hugo Larochelle and Kristen Grauman and Nicol{\`{o}} Cesa{-}Bianchi and Roman Garnett},
+  title     = {{SLANG:} Fast Structured Covariance Approximations for {B}ayesian Deep Learning with Natural Gradient},
+  booktitle = {Advances in Neural Information Processing Systems 31: Annual Conference on Neural Information Processing Systems 2018, NeurIPS 2018, 3-8 December 2018, Montr{\'{e}}al, Canada.},
+  pages     = {6248--6258},
+  year      = {2018},
+}
 ```
-2. Install the library of low-rank matrix operations using
-```
-cd SLANG/code/python/low_rank_ops
-pip install .
-```
-3. Run the demo example with
-```
-cd ..
-python demo.py
-```
-
-### Currently Available Code
-We are preparing code to replicate all of our experiments. Currently, we have added the core of our library, which includes:
-* Fast linear algebra computations of `low-rank + diagonal` matrices,
-* An implementation of Goodfellow's trick to compute individual gradients from a minibatch,
-* An implementation of a MLP matching the requirements for Goodfellow's trick (getting the output for each layer) along with support for parrallel computation for different sets of weights (e.g., additive noise),
-* The SLANG optimizer.
-
-We expect to update this repository shortly.
